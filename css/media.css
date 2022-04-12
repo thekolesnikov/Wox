@@ -35,6 +35,11 @@
     .purchase {
         padding-left: 150px;
     }
+    .carousel-item img{
+        max-width: 780px;
+        height: 471px;
+        object-fit: cover;
+    }
 }
 
 @media (max-width:1030px){
@@ -99,6 +104,19 @@
     }
     .footer{
         margin: 150px 0 100px 0;
+    }
+    .carousel-item img{
+        max-width: 780px;
+        height: 471px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 900px){
+    .carousel-item img{
+        max-width: 780px;
+        height: 401px;
+        object-fit: cover;
     }
 }
 
